@@ -9,8 +9,8 @@ let freeModeEnabled = false;
 let currentPlayer = 'white';
 let gameEnded = false;
 
-let whiteTime = 60; // 10 minutes in seconds
-let blackTime = 60; // 10 minutes in seconds
+let whiteTime = 600; // 10 minutes in seconds
+let blackTime = 600; // 10 minutes in seconds
 let timerInterval = null;
 const board = [
     ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'],
